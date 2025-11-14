@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <vector>
 
 using namespace std;
 
@@ -37,7 +37,13 @@ public:
         }
     }
 };
+class Logger{
+    private:
+    vector<string> historia;
+    logger(){}
 
+    
+};
 
 class KalkulatorKreator{
     private:
